@@ -260,14 +260,12 @@ img  {
     }
 }
 
-@media (max-width: 768px) {
 
-    .accord-title {
-        font-size: 13px;
+@media (max-width: 380px) {
+
+    .faq-section {
+        height: 380px;
     }
-}
-
-@media (max-width: 350px) {
 
     .accord-text {
         font-size: 10px;
@@ -277,8 +275,41 @@ img  {
         font-size: 12px;
     }
 
+    .accord-btn {
+        padding-top: 13px;
+        padding-bottom: 14px;
+    }
+
     .faq-block {
         padding: 0 10px;
+        margin: 65px auto 0 auto;
+    }
+
+    .faq-title {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .cube {
+        top: 10%;
+        left: -40px;
+        -webkit-transform: scale(0.3);
+            -ms-transform: scale(0.3);
+                transform: scale(0.3);
+    }
+
+    .main-img__mobile, .shadow {
+        -webkit-transform: scale(0.7);
+            -ms-transform: scale(0.7);
+                transform: scale(0.7);
+    }
+
+    .main-img__mobile {
+        margin-top: 5px;
+    }
+
+    .shadow {
+        top: 45%;
     }
 }
 
