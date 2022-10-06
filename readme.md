@@ -1,5 +1,5 @@
 
-# Javascript FAQ Accordeon
+# Javascript FAQ Accordion
 
 Exercise to improve Javascript skills
 
